@@ -1,0 +1,130 @@
+.header {
+    padding: 80px;
+    text-align: center;
+    background:darkslategray;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+
+.header h1 {
+     font-size: 50px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:yellowgreen;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+.navbar {
+    float: inline-start;
+    display: block;
+    color: darkolivegreen;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar {
+    float: inline-start;
+}
+
+.navbar a:hover {
+     background-color: black;
+     color: white; 
+}
+
+.navbar a:hover {
+    background-color: chocolate;
+    color: chartreuse,
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+   flex: 30%;
+   background-color:darkolivegreen;
+   padding: 19px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.hobbies-bg {
+  flex: 30%;
+   background-color:darkolivegreen;
+   padding: 19px;
+}
+
+.aboutme-bg {
+  flex: 30%;
+  background-color:darkolivegreen;
+  padding: 19px;
+}
+
+.contact{
+  flex: 30%;
+  background-color: darkolivegreen;
+  padding: 19px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+
+body {
+    background-image: url(images/downhill.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 { 
+  font-family: 'Roboto Mono', monospace;  
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
